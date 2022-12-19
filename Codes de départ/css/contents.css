@@ -1,0 +1,78 @@
+.main{
+    height: 1500px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+}
+.box {
+    background-color: rgba(0, 0, 0, 0.345);
+    flex-basis: 25%;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 5px solid black;
+    font-size: 1.6em;
+    padding: 20px;
+    height: 200px;
+}
+.hidedBox1{
+    display: none;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.279);
+    height: 400px;
+    padding-bottom: 100px;
+}
+.box1:hover + .hidedBox1{
+display:block;
+position:relative;
+}
+.hidedBox2{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.279);
+    height: 400px;
+}
+.box2:hover + .hidedBox2{
+display:block;
+}
+.hidedBox3{
+    display: none;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.279);
+    height: 400px;
+}
+.box3:hover + .hidedBox3{
+display:block;
+}
+.hidedBox4{
+    display: none;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.279);
+    height: 400px;
+}
+.box4:hover + .hidedBox4{
+display:block;
+}
+.photo {
+    background-color: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  p{
+    color: white;
+    font-size: 1.5em;
+    margin: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  

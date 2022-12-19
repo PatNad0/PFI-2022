@@ -1,0 +1,61 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+html {
+  scroll-behavior: smooth;
+}
+.main {
+  margin: auto;
+  max-width: 1400px;
+  min-width: 800px;
+}
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 0, 0, 0.566),
+    rgb(232, 174, 12)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.siteIcon {
+  background-image: URL("../images/faviconBig.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-left: 8px;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 5px solid orange;
+  width: 30%;
+  min-width: 415px;
+  font-size: 3em;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: 'Anton';
+}
+h2 {
+  margin-left: 15%;
+  border-bottom: 3px solid rgb(241, 215, 181);
+  width: max-content;
+  min-width: 25%;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 2em;
+  color: rgba(240, 248, 255, 0.792);
+  font-family: 'Cabin';
+}
+p {
+  font-size: 1.5em;
+  margin: 20px;
+  color: rgb(231, 157, 19);
+  font-family: 'Abel';
+}

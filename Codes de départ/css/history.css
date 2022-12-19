@@ -1,0 +1,83 @@
+.container {
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+.sideMenu {
+  margin-top: 20px;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.685);
+  color: rgba(255, 255, 255, 0.498);
+  vertical-align: middle;
+  font-size: 1.5em;
+  text-align: center;
+  vertical-align: auto;
+  border-radius: 20px;
+  width: 250px;
+  height: 600px;
+}
+.sideItems {
+  margin-top: 55px;
+  margin-bottom: 55px;
+  padding: auto;
+}
+.content {
+  display: grid;
+  grid-template-columns: 100%;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: white;
+  font-size: 1.1em;
+}
+a:active {
+  color: black;
+}
+.text {
+  background-color: rgba(254, 6, 6, 0.283);
+  border-radius: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  box-shadow: 5px 10px red;
+}
+.media {
+  margin: auto;
+  margin-bottom: 5%;
+  width: 560px;
+  height: 560px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+  .menu:hover,
+.menu:hover .icon {
+  color: white;
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  font-size: 1.1em;
+}
+
+.menu:active,
+.menu:active .icon {
+  color: rgb(0, 0, 0);
+  -webkit-text-fill-color: rgb(0, 0, 0);
+}
+
+
+@media screen and (max-width: 1080px) {
+  .sideHide {
+    display: none;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 60px auto;
+  }
+  .sideMenu{
+    width: 50px;
+    height: 460px;
+  }
+}
+

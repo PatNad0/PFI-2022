@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 0.97em;
+  font-family: 'Merriweather';
+}
+.title{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    border-bottom: 2px solid white;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.calendarContainer {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: white;
+  height: max-content;
+}
+.months {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: rgba(255, 255, 255, 0.815);
+  align-items: center;
+  text-decoration: none;
+  row-gap: 50px;
+  column-gap: 20px;
+  
+}
+.daysOfWeek {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  text-align: center;
+  margin-bottom: 5px;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 1.2em;
+  background-color: rgba(250, 235, 215, 0.345);
+  padding: 5px;
+  color: black;
+  border-radius: 5px;
+}
+.daysContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+}
+
+.month {
+  flex-basis: 20%;
+  display: grid;
+  padding: 15px;
+  padding-left: 10px;
+  color: rgba(255, 255, 255, 0.815);
+  margin: auto;
+  align-items: center;
+  text-decoration: none;
+  align-content: space-between;
+  background-color: rgba(70, 9, 9, 0.532);
+}
+.monthTitle {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 300;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+}
+.daysOfWeek {
+    font-size: 1.2em;
+}
+.holiday {
+    background-color: rgba(255, 0, 0, 0.326);
+    padding: 5px;
+    border-radius: 10%;
+}
+@media screen and (max-width: 1332px) {
+    .month{
+        flex-basis: 20%;
+        margin: auto;
+        max-width: fit-content;
+    }
+    .months{
+        row-gap: 50px;
+        column-gap: 30px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+  }
