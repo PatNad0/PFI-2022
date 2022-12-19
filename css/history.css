@@ -2,7 +2,9 @@
   display: grid;
   grid-template-columns: 300px auto;
 }
+
 .sideMenu {
+  /*IS CLICKABLE*/
   margin-top: 20px;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.685);
@@ -15,35 +17,42 @@
   width: 250px;
   height: 600px;
 }
+
 .sideItems {
   margin-top: 55px;
   margin-bottom: 55px;
   padding: auto;
 }
+
 .content {
   display: grid;
   grid-template-columns: 100%;
   flex-direction: column;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
+
 a:hover {
   color: white;
   font-size: 1.1em;
 }
+
 a:active {
   color: black;
 }
+
 .text {
-  background-color: rgba(254, 6, 6, 0.283);
+  background-color: rgba(254, 6, 6, 0.443);
   border-radius: 20px;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 5%;
   box-shadow: 5px 10px red;
 }
+
 .media {
   margin: auto;
   margin-bottom: 5%;
@@ -53,7 +62,8 @@ a:active {
   background-size: contain;
   background-repeat: no-repeat;
 }
-  .menu:hover,
+
+.menu:hover,
 .menu:hover .icon {
   color: white;
   -webkit-text-fill-color: rgb(255, 255, 255);
@@ -66,18 +76,57 @@ a:active {
   -webkit-text-fill-color: rgb(0, 0, 0);
 }
 
+ol {
+  font-size: 1.5em;
+  margin: 20px;
+  color: rgb(231, 157, 19);
+  font-family: "Abel";
+  padding-left: 20px;
+}
+
+table {
+  border: 5px solid black;
+  font-size: 1.5em;
+  color: rgb(231, 157, 19);
+  font-family: "Abel";
+  background-color: rgba(0, 0, 0, 0.379);
+  height: 100%;
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+tr {
+  border-bottom: 2px solid white;
+}
+
+.view {
+  padding: 10px;
+  background-color: rgba(255, 25, 0, 0.539);
+}
+
+.subs {
+  padding: 10px;
+  background-color: rgba(173, 39, 5, 0.573);
+}
+
+.month {
+  padding: 10px;
+  background-color: rgba(255, 25, 0, 0.539);
+}
 
 @media screen and (max-width: 1080px) {
   .sideHide {
     display: none;
   }
+
   .container {
     display: grid;
     grid-template-columns: 60px auto;
   }
-  .sideMenu{
+
+  .sideMenu {
     width: 50px;
     height: 460px;
   }
 }
-
