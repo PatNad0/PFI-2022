@@ -10,15 +10,18 @@ html {
   margin: auto;
   max-width: 1400px;
   min-width: 800px;
-}
-body {
   background-image: linear-gradient(
     to bottom right,
     rgba(255, 0, 0, 0.566),
     rgb(232, 174, 12)
   );
+
+}
+body {
   background-repeat: no-repeat;
-  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
 }
 
 .siteIcon {

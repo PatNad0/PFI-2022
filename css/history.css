@@ -45,7 +45,7 @@ a:active {
 }
 
 .text {
-  background-color: rgba(254, 6, 6, 0.443);
+  background-color: rgba(254, 237, 6, 0.157);
   border-radius: 20px;
   margin-left: 10%;
   margin-right: 10%;
@@ -79,7 +79,7 @@ a:active {
 ol {
   font-size: 1.5em;
   margin: 20px;
-  color: rgb(231, 157, 19);
+  color:rgba(255, 0, 0, 0.657);
   font-family: "Abel";
   padding-left: 20px;
 }
@@ -95,7 +95,9 @@ table {
   border-collapse: collapse;
 
 }
-
+p{
+  color:rgba(255, 0, 0, 0.657);
+}
 tr {
   border-bottom: 2px solid white;
 }
@@ -113,6 +115,9 @@ tr {
 .month {
   padding: 10px;
   background-color: rgba(255, 25, 0, 0.539);
+}
+p{
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1080px) {
